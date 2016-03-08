@@ -1,0 +1,31 @@
+GIT
+  remote: git://github.com/rjocoleman/PrintNode-Ruby.git
+  revision: 5f2491bf649f61220af0497765d5d59a159a6b35
+  branch: base64
+  specs:
+    printnode (1.0.5)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.0)
+    dotenv (2.1.0)
+    method_source (0.8.2)
+    net-telnet (0.1.1)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  net-telnet
+  printnode!
+  pry
+
+BUNDLED WITH
+   1.11.2
